@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.bodyContainer {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    padding-top: 5%;
+    align-items: center;
+    justify-items: center;
+
+
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    width: fit-content;
+}
+
+.item {
+    grid-column: span 2;
+}
+
+* {
+    font-family: "Montserrat";
+}
+
+.negrita {
+    font-weight: bold;
+    text-align: right;
+}
+
+h2 {
+    padding-left: 5%;
+    padding-top: 6%;
+
+
+}
+
+img {
+    border-radius: 4%;
+}
+
+@media(max-width: 1200px) {
+    .bodyContainer {
+        display: grid;
+        grid-template-columns: repeat(2, auto);
+        padding: 10%;
+        align-items: center;
+        justify-items: center;
+    }
+}
+
+@media(max-width: 764px) {
+    .bodyContainer {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        padding: 10%;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+.barra {
+    display: flex;
+    font-size: 16px;
+    margin: 0%;
+    background-color: #fffdfd;
+    position: fixed; 
+    top: 0; 
+    width: 100%; 
+    border-bottom: 1px solid black;
+}
+
+#menu {
+    font-size: 16px;
+    margin: 2%;
+}
+
+.text-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+}
+
+.text {
+    display: flex;
+    font-size: 16px;
+    margin: 2%;
+    width: 100%;
+    white-space: nowrap;
+
+}
+
+.icon {
+    font-size: 16px;
+    margin-left: 25px;
+    margin-right: 25px;
+
+}
+
+.icon-container {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+    margin-right: 2%;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+footer{
+    background-color: rgba(5, 6, 6, 0.97);
+    padding: 20px;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.footer-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+text circle{
+display: flex;
+align-items: center;
+}
+
+
+.circle{
+    width: 80px;
+    height: 80px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.circle img{
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+}
+
+.footer-text{
+    font-size: 16px;
+    white-space: nowrap;
+}
+
+
+    
+
+
+
+
+
+
+    
+
+
+
