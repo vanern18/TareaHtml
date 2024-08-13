@@ -33,7 +33,6 @@ h2 {
     padding-left: 5%;
     padding-top: 6%;
 
-
 }
 
 img {
@@ -51,6 +50,14 @@ img {
 }
 
 @media(max-width: 764px) {
+    .footer-container {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgba(5, 6, 6, 0.981);
+        padding: 20px;
+        color: white;
+    }
+
     .bodyContainer {
         display: grid;
         grid-template-columns: repeat(1, auto);
@@ -65,9 +72,9 @@ img {
     font-size: 16px;
     margin: 0%;
     background-color: #fffdfd;
-    position: fixed; 
-    top: 0; 
-    width: 100%; 
+    position: fixed;
+    top: 0;
+    width: 100%;
     border-bottom: 1px solid black;
 }
 
@@ -107,7 +114,7 @@ img {
     margin-right: 2%;
 }
 
-body{
+body {
     margin: 0;
     padding: 0;
     display: flex;
@@ -115,7 +122,7 @@ body{
     min-height: 100vh;
 }
 
-footer{
+footer {
     background-color: rgba(5, 6, 6, 0.97);
     padding: 20px;
     color: white;
@@ -123,50 +130,41 @@ footer{
     position: relative;
 }
 
-.footer-container{
+.footer-container {
     display: flex;
-    align-items:center;
     justify-content: space-between;
-    align-items: center;
-    
-}
-text circle{
-display: flex;
-align-items: center;
+    background-color: rgba(5, 6, 6, 0.981);
+    padding: 20px;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 98%;
+
 }
 
-
-.circle{
-    width: 80px;
-    height: 80px;
-    background-color: white;
-    border-radius: 50%;
+.footer-item {
     display: flex;
-    align-items:center;
-    justify-content: center;
-    overflow: hidden;
+    align-items: center;
 }
 
-.circle img{
-    width: 50%;
-    height: 50%;
-    object-fit: cover;
+
+text circle {
+    display: flex;
+    align-items: center;
 }
 
-.footer-text{
+
+.circle {
+    background-color: #fffdfd;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 16px;
+
+}
+
+
+.footer-text {
     font-size: 16px;
     white-space: nowrap;
+
 }
-
-
-    
-
-
-
-
-
-
-    
-
-
-
